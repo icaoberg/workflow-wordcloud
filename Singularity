@@ -10,6 +10,6 @@ From: python:3.11.6-alpine
     VERSION 1.0
 
 %post
-    pip install Pillow numpy matplotlib wordcloud
+    pip install Pillow numpy matplotlib wordcloud ipython
 
 %runscript
